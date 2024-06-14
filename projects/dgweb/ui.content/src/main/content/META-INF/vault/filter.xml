@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/dollargeneral" mode="merge"/>
+    <filter root="/content/dollargeneral" mode="merge"/>
+    <filter root="/content/dam/dollargeneral" mode="merge">
+        <exclude pattern="/content/dam/dollargeneral(/.*)?"/>
+        <include pattern="/content/dam/dollargeneral/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/dollargeneral/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/dollargeneral" mode="merge"/>
+</workspaceFilter>
